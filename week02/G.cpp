@@ -40,6 +40,9 @@ long long int reversed_number(long long int number){
 int main(){
     long long int x;
     cin >> x;
+    if (x < 0) {
+        x *= -1;
+    }
     if (x == reversed_number(x)){
         cout << "YES" << endl;
     }

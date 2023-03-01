@@ -21,12 +21,12 @@ void print_transpose(int (&A)[N][M]){
 }
 
 int main(){
-    int arr[N][M];
+    int A[N][M];
     for(int i = 0; i < N; i++){
         for(int j = 0; j < M; j ++){
-            cin >> arr[i][j];
+            cin >> A[i][j];
         }
     }
-    print_transpose(arr);
+    print_transpose(A);
     return 0;
 }

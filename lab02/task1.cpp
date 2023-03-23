@@ -2,9 +2,9 @@
 #include <random>
 using namespace std;
 
-ifindef
-define n 10
-endif
+#ifndef n
+#define n 10
+#endif
 int l, r;
 int a[20];
 
